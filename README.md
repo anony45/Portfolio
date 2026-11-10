@@ -1,3 +1,18 @@
+# Sharon Mageto - QA Analyst Portfolio
+
+Live portfolio: https://anony45.github.io/Portfolio/
+
+## GitHub Pages
+
+The static site is published from the main branch's docs folder. To update it after editing app/page.tsx or app/globals.css, run:
+
+    npm ci
+    node scripts/build-pages.mjs
+
+Commit the regenerated docs folder along with the source changes. The export preserves the portfolio's project filters, expandable details, and CV download. GitHub Pages publishes the committed docs files; it does not run the original Cloudflare Worker.
+
+## Framework reference
+
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
